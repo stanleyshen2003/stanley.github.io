@@ -7175,6 +7175,11 @@ button.bg-success:focus {
   background-color: #47D8E0 !important;
 }
 
+.bg-darkred {
+  background-color: #CD5C5C !important;
+}
+
+
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
