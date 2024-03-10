@@ -1,0 +1,36 @@
+I applied for the SWE intern position in Google.
+Although I was rejected by Google, I still want to share a few experience and opinions.
+
+1. Resume
+I used the template from https://github.com/posquit0/Awesome-CV. I modified minor things like font size and font weight, and the other things are same as the template.
+I tried to compiled locally in windows and WSL but both failed(some library issues), and I decided to use https://www.overleaf.com/home-2 after a few tries.
+
+2. Chinese Coding Interview
+The interviewer is young and friendly, and he will try his best not to make you nervous.
+Before the coding part, the interviewer asked me whether I would like to introduce myself. 
+I wasn't prepared for this (cause usually this won't happened), and I want to save more time for the coding part, so we skipped this part XD.
+I think I can not publicize the exact question the interviewer gave me, so I'm just gonna give a little decription.
+The question was about binary search with intervals, and the I/O format will be discussed by you and the interviewer.
+Overally, the coding part is quite easy. If it was a online judge question, I might finish it in 10 minutes.
+However, the interviewer will tell you to improve your code until optimal, which is the core of the interview.
+I made two mistakes in this interview.
+First of all, I forgot BST does insertion and searching both O(log(n)) time. When I made the searching O(log(n)) and insertion O(n), the
+interviewer asked me how can I make the insertion also O(log(n)). I knew BST does this but it didn't appear in my mind. Well, but I still have time to implement BST,
+so it's maybe fine...
+Secondly, I'm not so familiar with C++ std classes. The interviewer told me that I could implement with std::set because the class was based on BST.
+However, I have nevered used the class before, so I hand-craft a BST class...
+
+3. English Coding Interview
+The interviewer is not a native speacker (I guess), and he speak in an official tone.
+The question is easier then the Chinese interview, and it's about continuous space searching.
+I was quite nervous when explaining all the things, and the interviewer seldom gave me feedback after my explanation, so I'm not quite sure whether he understand me.
+This is the main reason why I took lots of time explaning the code even though its quite simple. I will definitely have another screen in my next interview so that I can see their faces.
+I also made two mistakes in this interview.
+First of all, the interviewer asked "what if the user gave an empty vector". I ran the test case and show that my code still generate the same result. He then asked "how about making a specification".
+I didn't get what he meant, but I still show how can I make a specification for this and said that this is not necessary. When I finished the interview, I finally got what he meant.
+If I was doing a online judge question, what I did was absolutely find. However, maybe he want my function to support this for future debugging.
+If someone accidentally send an empty vector as parameter, he will know that by inspecting the return value.
+Secondly, the interviewer kept asking how can I improve my code. My mind was stuck at the time and I was sooooo nervous.....
+I think this is the main reason why I was rejected because it is actually quite easy...
+It was a O(n) -> O(n) improvement question that I have never done before. I figured it out when I was taking a shower on the day I recieved the thank you letter.
+
